@@ -83,8 +83,8 @@ transition: 0.3s ease;
 }
 .navBar a:hover,
 .navBar a.active {
-    color: var(--main-color); /* Your active link color */
-    border-bottom: 3px solid var(--main-color); /* Your active link underline */
+    color: var(--main-color); 
+    border-bottom: 3px solid var(--main-color); 
 }
 
 .social a i{
@@ -242,25 +242,19 @@ span{
 }
 @keyframes words{
    0%,
-   20%{
+   40%{
     content: "Front-end Developer";
    }
-   21%,
-   40%{
-    content: "Microsoft Word Specialist";
-   }
    41%,
-   60%{
-    content: "Robotics Expert";
-   }
-   61%,
    80%{
-    content: "Web Developer";
+    content: "Microsoft Word Specialist";
    }
    81%,
    100%{
-    content: "Back-end Developer";
+    content: "Robotics Expert";
    }
+  
+  
 }
 
 @keyframes typing{
